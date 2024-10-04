@@ -22,6 +22,5 @@ jobs:
           #SOURCE_DIR: 'build'      # optional: defaults to entire repository
       
       — name: Deploy static site to S3 bucket
-
-run: aws s? sync . s3://ashwani-kumar --delete
+        run: aws s3 sync . s3://ashwani-kumar --delete
 
